@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Box, Heading, Text, Image, Button, Flex, Stack, SimpleGrid } from "@chakra-ui/react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
@@ -109,6 +110,7 @@ const Index = () => {
               <Text>회사소개</Text>
               <Text>서비스</Text>
               <Text>문의하기</Text>
+              <Text as={Link} to="/work-standards">도장 작업표준서</Text>
             </Box>
           </Flex>
         </Box>
